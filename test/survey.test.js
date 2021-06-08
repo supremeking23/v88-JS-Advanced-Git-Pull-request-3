@@ -21,7 +21,7 @@ describe("Survey Model", function () {
 		expect(result).to.equal("Success! Captcha input matched.");
 	});
 
-	it("Should return success message again and again", function () {
+	it("Should return success message again and again etetetetetete", function () {
 		let surveyModel = new SurveyModel();
 		let captcha = surveyModel.captcha;
 		let result = surveyModel.verifyCaptchaInput(captcha);
